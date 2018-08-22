@@ -1,0 +1,33 @@
+    1  mkdir ~/week1
+    2  cd ~/week1/
+    3  cd ~/.bashrc 
+    4  gedit ex3.sh
+    5  $ssh -X [kek]@osc-[N].edu.innopolis.ru
+    6  history > ex2.txt
+    7  cat ./ex2.txt 
+    8  sh ex3.sh
+    9  touch ex3.sh
+   10  sh ex3.sh
+   11  echo ex3.sh
+   12  nano ex3,].sh
+   13  vim
+   14  vi
+   15  man
+   16  halp
+   17  help
+   18  gedit ~/week1/main.c
+   19  cd ~
+   20  mkdir tmp
+   21  cd tmp
+   22  mkdir > week1
+   23  mkdir week1
+   24  cd week1
+   25  cd /tmp
+   26  echo > 1
+   27  mkdir week1
+   28  cd week1
+   29  echo ex1.txt
+   30  echo > ex1.txt
+   31  ls /usr/bin | grep gcc | sort -r > ex1.txt
+   32  echo > ex2.txt
+   33  history > ex2.txt
