@@ -1,0 +1,42 @@
+for example loop(n) where n = 3
+
+    |-+= The program calls fork 3 times:
+    | |-+- The forked process has 2 fork() left
+    | | |-+- The forked process has 1 fork() left
+    | | | \--- The forked process has 0 fork() left
+    | | \--- The forked process has 0 fork() left
+    | |-+- The forked process has 1 fork() left
+    | | \--- The forked process has 0 fork() left
+    | \--- The forked process has 0 fork() left
+
+    as you see number of process = 2^n
+
+
+for n = 3
+| \-+= 08242 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitled
+|   |-+- 08243 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+|   | |-+- 08246 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   | | \--- 08249 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/unt
+|   | \--- 08248 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   |-+- 08244 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+|   | \--- 08247 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   \--- 08245 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+
+
+for n = 4
+| \-+= 08272 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitled
+|   |-+- 08273 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+|   | |-+- 08276 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   | | |-+- 08282 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/unt
+|   | | | \--- 08287 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/u
+|   | | \--- 08286 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/unt
+|   | |-+- 08279 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   | | \--- 08285 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/unt
+|   | \--- 08284 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   |-+- 08274 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+|   | |-+- 08277 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   | | \--- 08283 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/unt
+|   | \--- 08281 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   |-+- 08275 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
+|   | \--- 08280 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untit
+|   \--- 08278 eugene /Users/eugene/Desktop/untitled/cmake-build-debug/untitle
